@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     [Header("Player Movement")]
     public float movementSpeed = 3f;
+    public MainCameraController MainCameraController;
 
     // Update is called once per frame
     private void Update()
@@ -18,8 +19,17 @@ public class PlayerScript : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
+        // Check for movement
+        float movementAmount = Mathf.Abs(horizontal) + Mathf.Abs(vertical);
+
         var movementInput = (new Vector3(horizontal, 0, vertical)).normalized;
 
-        transform.position += movementInput * movementSpeed * Time.deltaTime;
+        var movementDirection = MainCameraController.FlatRotation * movementInput;
+
+        if (movementAmount > 0)
+        {
+            transform.position += movementDirection * movementSpeed * Time.deltaTime;
+            transform.rotation = Quaternion.LookRotation(movementDirection);
+        }
     }
 }

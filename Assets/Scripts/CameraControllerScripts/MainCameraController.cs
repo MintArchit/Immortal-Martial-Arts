@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MainCameraController : MonoBehaviour
 {
     [Header("Camera Controller")]
     public Transform target;
@@ -15,12 +15,11 @@ public class NewBehaviourScript : MonoBehaviour
     public Vector2 framingBalance;
     public bool invertX;
     public bool invertY;
-    
-    float invertXValue;
-    float invertYValue;
+
     float rotateX;
     float rotateY;
-
+    float invertXValue;
+    float invertYValue;
 
 
     // Start is called before the first frame update
@@ -46,4 +45,6 @@ public class NewBehaviourScript : MonoBehaviour
         transform.position = focusPosition - targetRotation * new Vector3(0, 0, gap);
         transform.rotation = targetRotation;
     }
+
+    public Quaternion FlatRotation => Quaternion.Euler(0, rotateY, 0);
 }
