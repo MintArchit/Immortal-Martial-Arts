@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 406f1a5004bfd39449a8e3d46a988f34
+  - enabled: 1
+    path: Assets/Scenes/InnerWorld.unity
+    guid: 605f6bf2d63c9fc49b83ad83eac13836
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: 1402825c543a973449c7c262aa606795, type: 2}
@@ -14,3 +20,5 @@ EditorBuildSettings:
       guid: a5c403616def12444b7234b810998dcf, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: e25c5d9c21e5bd04bb18e23acfa131ad, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 707f1795a9665f74ca756aacccbe14d1,
+      type: 2}

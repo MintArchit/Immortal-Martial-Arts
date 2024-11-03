@@ -21,11 +21,15 @@ public class MainCameraController : MonoBehaviour
     float invertXValue;
     float invertYValue;
 
+    [Header("Mobile Input")]
+    public bool mobileInput;
+    public FloatingJoystick FloatingJoystick;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -34,9 +38,18 @@ public class MainCameraController : MonoBehaviour
         invertXValue = (invertX) ? -1 : 1;
         invertYValue = (invertY) ? -1 : 1;
 
-        rotateX += Input.GetAxis("Mouse Y") * invertYValue * rotationSpeed;
+        if (mobileInput)
+        {
+            rotateX += FloatingJoystick.Vertical * invertYValue * rotationSpeed;
+            rotateY += FloatingJoystick.Horizontal * invertXValue * rotationSpeed;
+        }
+        else
+        {
+            rotateX += Input.GetAxis("Mouse Y") * invertYValue * rotationSpeed;
+            rotateY += Input.GetAxis("Mouse X") * invertXValue * rotationSpeed;
+        }
+
         rotateX = Mathf.Clamp(rotateX, minimumVerticalAngle, maximumVerticalAngle);
-        rotateY += Input.GetAxis("Mouse X") * invertXValue * rotationSpeed;
 
         var targetRotation = Quaternion.Euler(rotateX, rotateY, 0);
 
