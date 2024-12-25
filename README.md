@@ -43,6 +43,8 @@
   </p>
 </div>
 
+---
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -62,10 +64,14 @@
   </ol>
 </details>
 
+---
+
+</br>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Our goal is to create an open-source, open-world cross-Platform multiplayer 3D Martials Arts / Cultivation Fantasy Game rooted in the rich traditions of wuxia and xianxia storytelling. This immersive experience will bring martial arts fantasy to life, allowing players to explore a vibrant world filled with dynamic factions, powerful sects, and legendary clans, each with their own history, philosophies, and goals.
 
@@ -109,7 +115,7 @@ Via Terminal / Command Line
 ## TODO
 
 <details>
-  <summary>List:</summary>
+  <summary>Feature List:</summary>
 
 * [ ] Add Changelog
 * [ ] Automatic Builds CI
@@ -161,7 +167,7 @@ Trying to report a possible security vulnerability in Immortal Martial Arts? Ple
 check out our [security policy][url_git-remote-security-policy] for
 guidelines about how to proceed.
 
-Everyone interacting in Immortal Martial Arts and its sub-projects' codebases, issue trackers, chat rooms, and mailing lists is expected to follow the Immortal Martial Arts [code of conduct][url_git-remote-coc].
+Everyone interacting in Immortal Martial Arts and its sub-projects' codebases, issue trackers, chat rooms, and mailing lists is expected to follow the Immortal Martial Arts [Code of Conduct][url_git-remote-coc].
 
 Don't forget to give the project a star! Thanks again!
 
@@ -170,13 +176,6 @@ Don't forget to give the project a star! Thanks again!
 <a href="https://github.com/MintArchit/Immortal-Martial-Arts/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MintArchit/Immortal-Martial-Arts" alt="contributor profile image"/>
 </a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,6 +201,13 @@ Lists resources i find helpful and would like to give credit to.
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See [`LICENSE.txt`][url_git-remote-license] for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
