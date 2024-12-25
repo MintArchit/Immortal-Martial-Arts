@@ -1,21 +1,24 @@
+<h1 align="center">Immortal Martial Arts · README<a id="readme-top"></a></h1>
 <!-- Improved compatibility of back to top link:  -->
-<a id="readme-top"></a>
-
 
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** for url_contributors, url_forks, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
+<div align="center">
+
+[![Contributors][shield_contributors]][url_git-remote-contributors]
+[![Forks][shield_forks]][url_git-remote-forks]
+[![Stargazers][shield_stars]][url_git-remote-stars]
+[![Issues][shield_issues]][url_git-remote-issues]
+[![License][shield_license]][url_git-remote-license]
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -32,15 +35,13 @@
     <a href="https://"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://">View Demo</a>
+    <a href="https://">Download</a>
     ·
-    <a href="https://gitlab.com/mintarchit/immortal-martial-arts/-/issues">Report Bug</a>
+    <a href="https://github.com/MintArchit/Immortal-Martial-Arts/issues">Report Bug</a>
     ·
-    <a href="https://gitlab.com/mintarchit/immortal-martial-arts/-/issues">Request Feature</a>
+    <a href="https://github.com/MintArchit/Immortal-Martial-Arts/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -51,9 +52,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started Development</a>
-      <ul>
-        <li><a href="#installation">Clone Project</a></li>
-      </ul>
     </li>
     <li><a href="#todo">Todo</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -64,38 +62,29 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-My goal is to create an open-source, open-world cross-Platform multiplayer 3D Martials Arts / Cultivation Fantasy Game rooted in the rich traditions of wuxia and xianxia storytelling. This immersive experience will bring martial arts fantasy to life, allowing players to explore a vibrant world filled with dynamic factions, powerful sects, and legendary clans, each with their own history, philosophies, and goals.
+Our goal is to create an open-source, open-world cross-Platform multiplayer 3D Martials Arts / Cultivation Fantasy Game rooted in the rich traditions of wuxia and xianxia storytelling. This immersive experience will bring martial arts fantasy to life, allowing players to explore a vibrant world filled with dynamic factions, powerful sects, and legendary clans, each with their own history, philosophies, and goals.
 
-Fully optimized for Web, Mobile, and PC (Windows, Mac, Linux), ensuring accessibility for a broad audience. 
+Fully optimized for Web, Mobile, and PC (Windows, Mac, Linux), ensuring accessibility for a broad audience.
 
-This game is designed to be an ever-expanding community-driven project. By making it open-source, i invite creators, developers, and martial arts enthusiasts to contribute and expand the universe. Players can form alliances, shape the world, and explore the intricacies of cultivation, fostering a thriving community inspired by martial arts epics.
+This game is designed to be an ever-expanding community-driven project. By making it open-source, we invite creators, developers, and martial arts enthusiasts to contribute and expand the universe. Players can form alliances, shape the world, and explore the intricacies of cultivation, fostering a thriving community inspired by martial arts epics.
 
 Join us as we build a world where every choice, alliance, and battle shapes your path to immortality!
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 This section list any major frameworks/libraries used to bootstrap the project.
 
-* [![Unity][Unity.com]][JQuery-url]
-* [![Blender][blender.com]][JQuery-url]
-* [![Git][git.com]][JQuery-url]
+* Unity
+* Git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started Development
@@ -104,43 +93,46 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Unity Hub & Unity Editor V2022.3.38 installed
-- decent hardware (recommendation: min 16gb ram, 256gb rom, good GPU & CPU)
-
+* decent hardware (recommendation: min. 16GB RAM, 256GB rom, good CPU & GPU)
+* Unity Hub & Unity Editor V2022.3.38 installed
 
 ### Clone Project
 
 Via Terminal / Command Line
 
-
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/MintArchit/Immortal-Martial-Arts.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## TODO
 
-- [ ] Add Changelog
-- [ ] Automatic Builds CI
-- [ ] Systems:
-    - [ ] Parkour System
-    - [ ] Combat Systems
-      - [ ] Close Combat
-      - [ ] Range Combat
-    - [ ] Money System
-    - [ ] Level/Cultivation System
-    - [ ] Social Systems:
-      - [ ] Sects/Faction/Clans
-      - [ ] Notority
-      - [ ] Fame
-    - [ ] AI Systems
-    - [ ] Inventory Systems
-    - [ ] Story System
-- [ ] Multi-language Support
-    - [ ] English
-    - [ ] German
-    - [ ] French
+<details>
+  <summary>List:</summary>
+
+* [ ] Add Changelog
+* [ ] Automatic Builds CI
+* [ ] Systems:
+  * [ ] Parkour System
+  * [ ] Combat Systems
+    * [ ] Close Combat
+    * [ ] Range Combat
+  * [ ] Money System
+  * [ ] Level/Cultivation System
+  * [ ] Social Systems:
+    * [ ] Sects/Faction/Clans
+    * [ ] Notority
+    * [ ] Fame
+  * [ ] AI Systems
+  * [ ] Inventory Systems
+  * [ ] Story System
+* [ ] Multi-language Support
+  * [ ] English
+  * [ ] German
+  * [ ] French
+
+</details>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -155,37 +147,31 @@ Via Terminal / Command Line
 8. Rework Combat, Level, Item Systems
 9. Build Alpha Release Multiplayer
 
-
-
-See the [open issues](https://https://gitlab.com/mintarchit/immortal-martial-arts/-/issues) for a full list of proposed features (and known issues).
+See the [open issues][url_git-remote-issues] for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+We encourage you to contribute to Immortal Martial Arts! Please check out the
+[Contributing to Immortal Martial Arts guide][url_git-remote-contributing] for guidelines about how to proceed. [Join us!][url_git-remote-contributors]
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Trying to report a possible security vulnerability in Immortal Martial Arts? Please
+check out our [security policy][url_git-remote-security-policy] for
+guidelines about how to proceed.
+
+Everyone interacting in Immortal Martial Arts and its sub-projects' codebases, issue trackers, chat rooms, and mailing lists is expected to follow the Immortal Martial Arts [code of conduct][url_git-remote-coc].
+
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
+### Top contributors
 
 <a href="https://github.com/MintArchit/Immortal-Martial-Arts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MintArchit/Immortal-Martial-Arts" />
+  <img src="https://contrib.rocks/image?repo=MintArchit/Immortal-Martial-Arts" alt="contributor profile image"/>
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -194,18 +180,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
 MintArchit
 
-Project Link: [https://gitlab.com/mintarchit/immortal-martial-arts](https://gitlab.com/mintarchit/immortal-martial-arts)
+Project Link: [Immortal-martial-arts][url_git-remote]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -223,20 +205,25 @@ Lists resources i find helpful and would like to give credit to.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
-[contributors-url]: https://github.com/MintArchit/Immortal-Martial-Arts/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
-[forks-url]: https://github.com/MintArchit/Immortal-Martial-Arts/network/members
-[stars-shield]: https://img.shields.io/github/stars/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
-[stars-url]: https://github.com/MintArchit/Immortal-Martial-Arts/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
-[issues-url]: https://github.com/MintArchit/Immortal-Martial-Arts/issues
-[license-shield]: https://img.shields.io/github/license/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
-[license-url]: https://github.com/MintArchit/Immortal-Martial-Arts/blob/master/LICENSE.txt
+[url_git-remote]: https://github.com/MintArchit/Immortal-Martial-Arts
+[url_git-remote-issues]: https://github.com/MintArchit/Immortal-Martial-Arts/issues
+[url_git-remote-contributors]: https://github.com/MintArchit/Immortal-Martial-Arts/graphs/contributors
+[url_git-remote-forks]: https://github.com/MintArchit/Immortal-Martial-Arts/network/members
+[url_git-remote-stars]: https://github.com/MintArchit/Immortal-Martial-Arts/stargazers
+[url_git-remote-contributing]: https://github.com/MintArchit/Immortal-Martial-Arts/CONTRIBUTING.md
+[url_git-remote-coc]: https://github.com/MintArchit/Immortal-Martial-Arts?tab=coc-ov-file
+[url_git-remote-security-policy]: https://github.com/MintArchit/Immortal-Martial-Arts?tab=security-ov-file#readme
+[url_git-remote-license]: https://github.com/MintArchit/Immortal-Martial-Arts/LICENSE.txt
+
+<!-- shields links-->
+[shield_contributors]: https://img.shields.io/github/contributors/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
+[shield_forks]: https://img.shields.io/github/forks/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
+[shield_issues]: https://img.shields.io/github/issues/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
+[shield_stars]: https://img.shields.io/github/stars/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
+[shield_license]: https://img.shields.io/github/license/MintArchit/Immortal-Martial-Arts.svg?style=for-the-badge
+
+<!-- image links-->
 [product-screenshot]: images/screenshot.png
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
