@@ -23,24 +23,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="#">
+    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
   <h3 align="center">Immortal Martial Arts</h3>
 
-  <p align="center">
-    Open Source Martials Arts / Cultivation MMORPG
-    <br />
-    <a href="https://"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://">Download</a>
-    ·
-    <a href="https://github.com/MintArchit/Immortal-Martial-Arts/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/MintArchit/Immortal-Martial-Arts/issues">Request Feature</a>
-  </p>
+  Open Source Martials Arts / Cultivation MMORPG
+  <br />
+  <a href="https://"><strong>Explore the docs »</strong></a>
+  <br />
+  <br />
+
+  [Download][url_git-remote-releases]
+  ·
+  [Report Bug][url_git-remote-issues]
+  
 </div>
 
 ---
@@ -213,6 +211,7 @@ Distributed under the MIT License. See [`LICENSE.txt`][url_git-remote-license] f
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [url_git-remote]: https://github.com/MintArchit/Immortal-Martial-Arts
+[url_git-remote-releases]: https://github.com/MintArchit/Immortal-Martial-Arts/releases
 [url_git-remote-issues]: https://github.com/MintArchit/Immortal-Martial-Arts/issues
 [url_git-remote-contributors]: https://github.com/MintArchit/Immortal-Martial-Arts/graphs/contributors
 [url_git-remote-forks]: https://github.com/MintArchit/Immortal-Martial-Arts/network/members
